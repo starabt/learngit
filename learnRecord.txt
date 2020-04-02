@@ -16,3 +16,8 @@ git commit -m "the description of this commit"
 after then the "testFile" will be commit to repository
 -m "the description of this commit",like the log
 
+4.git status
+to know the present status of the repository,like some files have been modified,it will recommand you to commit to the repository
+
+5.git diff "file"
+show the differences of the "file" between the local one and the one on the repository
