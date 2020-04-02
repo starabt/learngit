@@ -47,3 +47,8 @@ generate the ssh key in ~/.ssh/,copy the whole msg of id_ rsa.pub , add ssh key 
 11.3 create and switch to branch: git checkout -b <name> OR git switch -c <name>
 11.4 merge branch to current branch:git merge <name>
 11.5 del branch:git branch -d <name>
+
+12.push local repo to remote
+12.1 add remote repo name :git remote add <name> git@github.com:xxx/xxx.git
+12.2 first push : git push -u <name> master
+	later push : git push <name> master
