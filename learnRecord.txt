@@ -34,3 +34,5 @@ it will record all the operation and the id of version,you can reset to any vers
 "git log" or "git reflog" will show the log with HEADID in the front of each log msg,
 use this cmd,can reset the repository to the status of HEADID
 
+9.git checkout -- <file>
+reset the <file> to stage(git add) or repository head version(last git commit) 
