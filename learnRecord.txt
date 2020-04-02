@@ -33,3 +33,4 @@ it will record all the operation and the id of version,you can reset to any vers
 8.git reset --hard HEADID
 "git log" or "git reflog" will show the log with HEADID in the front of each log msg,
 use this cmd,can reset the repository to the status of HEADID
+
