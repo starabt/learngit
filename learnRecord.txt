@@ -21,3 +21,9 @@ to know the present status of the repository,like some files have been modified,
 
 5.git diff "file"
 show the differences of the "file" between the local one and the one on the repository
+
+6.git log
+show the change log from newest to oldest
+if you do not want so much msg,add "--pretty=oneline",like below
+git log --pretty=oneline
+
