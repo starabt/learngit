@@ -27,3 +27,5 @@ show the change log from newest to oldest
 if you do not want so much msg,add "--pretty=oneline",like below
 git log --pretty=oneline
 
+7.git reflog
+it will record all the operation and the id of version,you can reset to any version
