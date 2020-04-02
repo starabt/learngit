@@ -36,3 +36,14 @@ use this cmd,can reset the repository to the status of HEADID
 
 9.git checkout -- <file>
 reset the <file> to stage(git add) or repository head version(last git commit) 
+
+10.ssh-keygen -t rsa -C "1173568288@qq.com"
+generate the ssh key in ~/.ssh/,copy the whole msg of id_ rsa.pub , add ssh key in github.com
+
+11.about branch
+11.1 see branch:git branch
+11.2 create branch:git branch <name>
+11.3 switch branch:git checkout <name> OR git switch <name>
+11.3 create and switch to branch: git checkout -b <name> OR git switch -c <name>
+11.4 merge branch to current branch:git merge <name>
+11.5 del branch:git branch -d <name>
