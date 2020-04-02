@@ -1,0 +1,18 @@
+1.set user and email
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+I just create the random name and email, I do not know whether it is ok or not.
+if you do not do this, it will recommand you "Please tell me who you are."
+2.build a repository
+mkdir learngit
+cd learngit
+git init
+
+3.how to commit a file
+git add "testFile" 
+git commit -m "the description of this commit"
+
+after then the "testFile" will be commit to repository
+-m "the description of this commit",like the log
+
