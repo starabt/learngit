@@ -60,3 +60,12 @@ show merge of branch
 14.2 git stash apply <version>:reset to stash <version> ,if there is no <version>,reset to newest
 14.3 git stash drop :del stash
 14.4 git stash pop:equal to apply + drop
+
+15.multiple develop
+15.1 git remote -v:show the remote repository msg
+15.2 git push origin branch-name:push local branch nameed <branch-name> to origin (remote repository)
+	if failed for conflict, <push pull> first
+15.3 git pull:pull the remote repo to local
+	if failed,build the reference : 
+15.4 git branch --set-upstream-to=origin/branch-name branch-name:build the reference between local and remote repo
+15.5 git checkout -b branch-name origin/branch-name : build local branch on origin repo
