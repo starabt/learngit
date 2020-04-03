@@ -52,3 +52,11 @@ generate the ssh key in ~/.ssh/,copy the whole msg of id_ rsa.pub , add ssh key 
 12.1 add remote repo name :git remote add <name> git@github.com:xxx/xxx.git
 12.2 first push : git push -u <name> master
 	later push : git push <name> master
+13.git log --graph
+show merge of branch
+
+14.git stash:save the developping work
+14.1 git stash list:show stash
+14.2 git stash apply <version>:reset to stash <version> ,if there is no <version>,reset to newest
+14.3 git stash drop :del stash
+14.4 git stash pop:equal to apply + drop
