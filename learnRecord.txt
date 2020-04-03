@@ -69,3 +69,9 @@ show merge of branch
 	if failed,build the reference : 
 15.4 git branch --set-upstream-to=origin/branch-name branch-name:build the reference between local and remote repo
 15.5 git checkout -b branch-name origin/branch-name : build local branch on origin repo
+
+16.git tag
+16.1 git tag tagname <version_id>: add tag for the version of <version_id>,if there is no <version_id>,add tag for newest commit
+	git tag -a tagname -m "description" <version_id>
+16.2 git tag:show all tagname
+16.3 git show tagname:show detail msg of tagname
