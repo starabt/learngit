@@ -77,3 +77,6 @@ show merge of branch
 16.3 git show tagname:show detail msg of tagname
 16.4 git tag -d tagname:delete tag
 16.5 git push origin tagname:push tag to origin repo
+
+17.set alias
+git config --global alias.st status,then you can use <git status> like <git st>
