@@ -75,3 +75,5 @@ show merge of branch
 	git tag -a tagname -m "description" <version_id>
 16.2 git tag:show all tagname
 16.3 git show tagname:show detail msg of tagname
+16.4 git tag -d tagname:delete tag
+16.5 git push origin tagname:push tag to origin repo
